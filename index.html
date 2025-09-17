@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TASTYBITES</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">TASTYBITES</div>
+    <nav>
+      <ul>
+        <li><a href="#" id="home-link">HOME</a></li>
+        <li><a href="#" id="menu-link">MENU</a></li>
+        <li><a href="#" id="reviews-link">REVIEWS</a></li>
+        <li><a href="#" id="about-link">ABOUT</a></li>
+        <li><a href="#" id="contact-link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr />
+  <section class="hero">
+    <div class="container">
+      <h2><span>HELLO FOODIES 🍕</span></h2>
+      <h1>DELICIOUS MOMENT</h1>
+      <p>
+        We're passionate about food and dedicated to your satisfaction!<br />
+        Discover flavors that will delight your palate.
+      </p>
+      <div class="buttons">
+        <a href="#" id="hero-menu-btn" class="btn btn-primary">Explore MENU</a>
+        <a href="#" id="reserve-btn" class="btn btn-primary">Reserve Table</a>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="pic1.png" alt="Profile Image" />
+      <button class="btn delivery">FREE Delivery</button>
+      <button class="btn off">20% OFF</button>
+    </div>
+  </section>
+  <section class="menu-section" style="display:none;">
+    <h2 class="section-title">Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80" alt="Classic Burger" />
+        <h3>Classic Burger</h3>
+        <p>Juicy beef patty, cheese, lettuce, and tomato.</p>
+        <span class="price" style="width: 90px;">Rs. 99</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Pepperoni Pizza" />
+        <h3>Pepperoni Pizza</h3>
+        <p>Thin crust with spicy pepperoni and mozzarella.</p>
+        <span class="price" style="width: 90px;">Rs.120</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=600&q=80" alt="Creamy Alfredo Pasta" />
+        <h3>Alfredo Pasta</h3>
+        <p>Creamy white sauce with fettuccine and herbs.</p>
+        <span class="price" style="width: 90px;">Rs. 99</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80" alt="Sushi Platter" />
+        <h3>Sushi Platter</h3>
+        <p>Fresh assortment of salmon, tuna, and veggie rolls.</p>
+        <span class="price" style="width: 90px;">Rs. 79</span>
+      </div>
+    </div>
+  </section>
+  
+  <section class="reviews-section" style="display:none;">
+    <h2 class="section-title">Customer Reviews</h2>
+    <div class="reviews-grid">
+      <div class="review-item">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" />
+        <h4>John Doe</h4>
+        <div class="stars">★★★★★</div>
+        <p>"Amazing food and quick delivery. Highly recommend!"</p>
+      </div>
+      <div class="review-item">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Lee" />
+        <h4>Sarah Alii</h4>
+        <div class="stars">★★★★☆</div>
+        <p>"Great taste but would love more vegan options."</p>
+      </div>
+      <div class="review-item">
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Mike Ross" />
+        <h4>Sam Sameer</h4>
+        <div class="stars">★★★</div>
+        <p>"Best sushi I've had in town. Fresh and delicious."</p>
+      </div>
+      <div class="review-item">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Emma Stone" />
+        <h4>Simran</h4>
+        <div class="stars">★★★★☆</div>
+        <p>"Good ambiance and tasty pasta dishes."</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" style="display:none;">
+    <h2 class="section-title">About Us</h2>
+    <p style="max-width: 700px; margin: auto; color: var(--gray); font-size: 18px; line-height: 1.6;">
+      TastyBites is your go-to place for mouth-watering meals prepared with fresh ingredients. Our chefs are passionate about delivering an exceptional culinary experience every time you visit. Join us and indulge in delicious.
+
+    <div style="display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--primary); font-weight: 600; font-size: 18px; margin-top: 20px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--primary)" viewBox="0 0 24 24">
+    <path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>
+  </svg>
+  <span>#41, Near KLE Engineering College, Udyambag, Angol,<br>Belagavi, Karnataka 590008</span>
+</div>
+  </section>
+
+  <section class="contact-section" style="display:none;">
+    <h2 class="section-title">Contact Us</h2>
+    <p style="max-width: 700px; margin: auto; color: var(--gray); font-size: 18px; line-height: 1.6;">
+      Have questions or want to make a reservation? Reach out to us:
+    </p>
+    <form style="max-width: 500px; margin: 20px auto; display: flex; flex-direction: column; gap: 15px;">
+      <input type="text" placeholder="Your Name" required style="padding: 12px; border-radius: 8px; border:none; font-size: 16px;" />
+      <input type="email" placeholder="Your Email" required style="padding: 12px; border-radius: 8px; border:none; font-size: 16px;" />
+      <textarea placeholder="Your Message" rows="5" required style="padding: 12px; border-radius: 8px; border:none; font-size: 16px;"></textarea>
+      <button type="submit" class="btn btn-primary" style="width: fit-content; align-self: center;">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
